@@ -1,0 +1,41 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>
+      Login
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding id="page4">
+  <form id="login-form2">
+    <ion-list id="login-list3">
+      <ion-item id="login-input3">
+        <ion-label>
+          Login
+        </ion-label>
+        <ion-input type="email" placeholder=""></ion-input>
+      </ion-item>
+      <ion-item id="login-input4">
+        <ion-label>
+          Senha
+        </ion-label>
+        <ion-input type="password" placeholder=""></ion-input>
+      </ion-item>
+    </ion-list>
+    <ion-item id="login-toggle1">
+      <ion-label>
+        Guardar Senha
+      </ion-label>
+      <ion-toggle color="positive" checked="false"></ion-toggle>
+    </ion-item>
+    <div class="spacer" style="height:40px;" id="login-spacer1"></div>
+    <button id="login-button1" ion-button color="positive" block on-click="goToVisOGeral()">
+      Logar
+    </button>
+    <button id="login-button2" ion-button clear color="positive" block href-inappbrowser="/signup">
+      Ou Criar uma conta
+    </button>
+  </form>
+</ion-content>

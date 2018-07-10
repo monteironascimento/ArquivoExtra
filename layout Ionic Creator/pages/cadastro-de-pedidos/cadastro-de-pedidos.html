@@ -1,0 +1,55 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>
+      Cadastro de Pedidos
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding id="page11">
+  <form id="cadastroDePedidos-form5">
+    <ion-item id="cadastroDePedidos-radio4">
+      <ion-label>
+        Nome do Cliente
+      </ion-label>
+      <ion-radio></ion-radio>
+    </ion-item>
+    <ion-item id="cadastroDePedidos-input18">
+      <ion-label>
+        Data
+      </ion-label>
+      <ion-input type="text" placeholder=""></ion-input>
+    </ion-item>
+    <h5 id="cadastroDePedidos-heading1" style="color:#000000;font-weight:400;text-align:center;">
+      Itens
+    </h5>
+    <ion-item color="none" id="cadastroDePedidos-list-item39">
+      <p>
+        Roundup Original
+        <br /> 10 X R$14,59 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; R$145,90
+      </p>
+      <ion-icon name="close" item-right></ion-icon>
+    </ion-item>
+    <button id="cadastroDePedidos-button18" ion-button clear color="positive" block icon-right on-click="goToItemDoPedido()">
+      <ion-icon name="add-circle"></ion-icon>
+    </button>
+    <h4 id="cadastroDePedidos-heading4" style="color:#000000;text-align:center;">
+      Valor Total R$ 145,90
+    </h4>
+    <h4 id="cadastroDePedidos-heading2" style="color:#000000;text-align:center;">
+      Desconto R$ 0,00
+    </h4>
+    <h4 id="cadastroDePedidos-heading3" style="color:#000000;text-align:center;">
+      Total Líquido R$ 145,00
+    </h4>
+    <ion-item color="none" on-click="goToPagamentoDoPedido()" id="cadastroDePedidos-list-item40">
+      Á vista
+      <ion-icon name="arrow-forward" item-right></ion-icon>
+    </ion-item>
+  </form>
+  <button id="cadastroDePedidos-button19" ion-button color="positive" block>
+    Salvar
+  </button>
+</ion-content>
